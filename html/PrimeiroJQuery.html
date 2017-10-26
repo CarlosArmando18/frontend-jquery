@@ -2,9 +2,42 @@
 <html lang="pt-br">
 <head>
 	<meta charset="UTF-8">
-	<title></title>
+	<title>Uso de JQuery</title>
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('#principal').append('<p> Texto Novo </p>');
+	$('#primeiro').click(function(){
+		$('div').append('<h2>haaaa!!</h2>');
+	});
+}); 
+
+</script>
+
+
+
 </head>
 <body>
+<header>
+	<h1>Página com JQuery</h1>
+</header>
+
+<main>
 	
+	<section id="principal">
+		<div>
+			<button id="primeiro">Primeiro</button><br>
+			<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad rerum, incidunt, sit quo explicabo repellat inventore in atque eius magni totam dolor vero doloremque sed aspernatur facilis fuga corrupti labore.</div>
+			<div>Omnis doloribus velit, magni quasi reprehenderit doloremque adipisci quod aliquid atque accusantium unde consectetur beatae. Cum quae nihil incidunt animi, at qui commodi aperiam magni consequuntur sint, hic vero, dolorum!</div>
+			<div>Dicta quo consequatur mollitia ut atque veritatis illo, modi porro nam reprehenderit soluta nobis reiciendis, sapiente quae hic, rem eos quas eaque cupiditate officiis facilis quidem cumque repudiandae totam deleniti!</div>
+		</div>
+		<div>
+			<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, iusto, sunt. Rem, dolorum. Animi quaerat officia, ut, commodi ratione recusandae maiores totam cumque quas minus voluptate blanditiis repellat magni? Dolorem.</div>
+			<div>Officiis tempore, magni debitis iste ipsum, illo facilis placeat ducimus architecto, excepturi corrupti assumenda blanditiis saepe distinctio quod consectetur atque delectus ab maxime, veniam iusto totam. Cum molestias, accusantium tenetur.</div>
+			<div>Perspiciatis ducimus doloribus impedit saepe placeat, quo explicabo voluptas libero fuga amet aut, quisquam, quasi numquam, quas officia autem labore delectus. Eligendi nulla libero aut esse voluptatem? Amet, placeat, architecto!</div>
+		</div>
+	</section>
+
+</main>
 </body>
 </html>
